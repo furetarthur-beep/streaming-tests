@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with Broadpeak Origin JITP version 01.06.02-498849840_d77f2ebc-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT10S" type="static" mediaPresentationDuration="PT2608.57275390625S">
+  <Period id="1" duration="PT0H43M28.1289S">
+    <AdaptationSet id="1" contentType="video" subsegmentStartsWithSAP="1" maxWidth="1920" maxHeight="1080" frameRate="90000/3003" subsegmentAlignment="true">
+      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="$RepresentationID$-init.mp4" media="$RepresentationID$-$Time$.m4s" startNumber="1">
+        <!--From 1970-01-01T00:00:01 to 1970-01-01T00:43:30-->
+        <SegmentTimeline>
+          <S t="130180" d="180180" r="5"/>
+          <S t="1211260" d="42042"/>
+          <S t="1253302" d="138138"/>
+          <S t="1391440" d="180180" r="449"/>
+          <S t="82472440" d="90090" r="1"/>
+          <S t="82652620" d="180180" r="799"/>
+          <S t="226796620" d="90090" r="1"/>
+          <S t="226976800" d="180180" r="37"/>
+          <S t="233823640" d="132132"/>
+          <S t="233955772" d="48048"/>
+          <S t="234003820" d="180180" r="3"/>
+          <S t="234724540" d="177177"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015"/>
+      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/</BaseURL>
+      <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSMS50cw-video=537000" bandwidth="537000" codecs="avc1.4d401e" mimeType="video/mp4" sar="1:1" width="320" height="180"/>
+      <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSMi50cw-video=1279989" bandwidth="1279989" codecs="avc1.4d401e" mimeType="video/mp4" sar="1:1" width="640" height="360"/>
+      <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSMy50cw-video=2564970" bandwidth="2564970" codecs="avc1.4d401f" mimeType="video/mp4" sar="1:1" width="1024" height="576"/>
+      <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSNC50cw-video=4811939" bandwidth="4811939" codecs="avc1.640029" mimeType="video/mp4" sar="1:1" width="1024" height="576"/>
+      <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSNS50cw-video=5333932" bandwidth="5333932" codecs="avc1.640029" mimeType="video/mp4" sar="1:1" width="1278" height="716"/>
+      <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSNi50cw-video=6891912" bandwidth="6891912" codecs="avc1.640029" mimeType="video/mp4" sar="1:1" width="1920" height="1080"/>
+    </AdaptationSet>
+    <AdaptationSet id="2" contentType="audio" lang="en" subsegmentStartsWithSAP="1" subsegmentAlignment="true">
+      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="$RepresentationID$-init.mp4" media="$RepresentationID$-$Time$.m4s" startNumber="1">
+        <!--From 1970-01-01T00:00:01 to 1970-01-01T00:43:30-->
+        <SegmentTimeline>
+          <S t="130180" d="180180" r="5"/>
+          <S t="1211260" d="42042"/>
+          <S t="1253302" d="138138"/>
+          <S t="1391440" d="180180" r="449"/>
+          <S t="82472440" d="90090" r="1"/>
+          <S t="82652620" d="180180" r="799"/>
+          <S t="226796620" d="90090" r="1"/>
+          <S t="226976800" d="180180" r="37"/>
+          <S t="233823640" d="132132"/>
+          <S t="233955772" d="48048"/>
+          <S t="234003820" d="180180" r="3"/>
+          <S t="234724540" d="177177"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/</BaseURL>
+      <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSMS50cw-audio-mp4a-40-2_eng=96124_700" bandwidth="96124" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="3" contentType="audio" lang="en" subsegmentStartsWithSAP="1" subsegmentAlignment="true">
+      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="$RepresentationID$-init.mp4" media="$RepresentationID$-$Time$.m4s" startNumber="1">
+        <!--From 1970-01-01T00:00:01 to 1970-01-01T00:43:30-->
+        <SegmentTimeline>
+          <S t="130180" d="180180" r="5"/>
+          <S t="1211260" d="42042"/>
+          <S t="1253302" d="138138"/>
+          <S t="1391440" d="180180" r="449"/>
+          <S t="82472440" d="90090" r="1"/>
+          <S t="82652620" d="180180" r="799"/>
+          <S t="226796620" d="90090" r="1"/>
+          <S t="226976800" d="180180" r="37"/>
+          <S t="233823640" d="132132"/>
+          <S t="233955772" d="48048"/>
+          <S t="234003820" d="180180" r="3"/>
+          <S t="234724540" d="177177"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/</BaseURL>
+      <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSNi50cw-audio-ec-3_eng=192000_701" bandwidth="192000" codecs="ec-3" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"/>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="8192" contentType="image" width="2400" height="135" mimeType="image/jpeg" codecs="jpeg">
+      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/c2N0eBNGXclybzuvdHlwZT1EQVNIVFMmcGFzcz0xJmJ1cmw9/</BaseURL>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate startNumber="1" timescale="1" duration="100" media="$RepresentationID$/tile_$Number$.jpeg"/>
+      <Representation id="thumbnail" bandwidth="10000">
+        <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="10x1"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

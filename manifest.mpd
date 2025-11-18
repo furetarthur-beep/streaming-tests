@@ -29,7 +29,7 @@
       </SegmentTemplate>
       <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015"/>
       <!-- Updated BaseURL to public host -->
-      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/</BaseURL>
+      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49</BaseURL>
       <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSMS50cw-video=537000" bandwidth="537000" codecs="avc1.4d401e" mimeType="video/mp4" sar="1:1" width="320" height="180"/>
       <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSMi50cw-video=1279989" bandwidth="1279989" codecs="avc1.4d401e" mimeType="video/mp4" sar="1:1" width="640" height="360"/>
       <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSMy50cw-video=2564970" bandwidth="2564970" codecs="avc1.4d401f" mimeType="video/mp4" sar="1:1" width="1024" height="576"/>
@@ -56,7 +56,7 @@
         </SegmentTimeline>
       </SegmentTemplate>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/</BaseURL>
+      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49</BaseURL>
       <Representation id="audio_1" bandwidth="96124" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
       </Representation>
@@ -80,12 +80,11 @@
         </SegmentTimeline>
       </SegmentTemplate>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/</BaseURL>
+      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49</BaseURL>
       <Representation id="audio_2" bandwidth="192000" codecs="ec-3" mimeType="audio/mp4" audioSamplingRate="48000">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"/>
       </Representation>
     </AdaptationSet>
-
     <AdaptationSet id="4" contentType="image" width="1600" height="900" mimeType="image/jpeg" codecs="jpeg" group="4" par="16:9" sar="1:1">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <SegmentTemplate startNumber="1" timescale="60000" duration="15015000" media="out_withEac3_v2-$RepresentationID$-n-$Number$.jpg"/>

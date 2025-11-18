@@ -78,9 +78,8 @@
       </Representation>
     </AdaptationSet>
     <AdaptationSet id="8192" contentType="image" width="2400" height="135" mimeType="image/jpeg" codecs="jpeg">
-      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/c2N0eBNGXclybzuvdHlwZT1EQVNIVFMmcGFzcz0xJmJ1cmw9/</BaseURL>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <SegmentTemplate startNumber="1" timescale="1" duration="100" media="$RepresentationID$/tile_$Number$.jpeg"/>
+      <SegmentTemplate startNumber="1" timescale="60000" duration="15015000" media=">https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/out_withEac3_v2-$RepresentationID$-n-$Number$.jpg"/>
       <Representation id="thumbnail" bandwidth="10000">
         <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="10x1"/>
       </Representation>

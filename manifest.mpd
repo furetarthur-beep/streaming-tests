@@ -11,7 +11,7 @@
   <Period id="1" duration="PT0H59M59.1289S">
 
     <AdaptationSet id="1" contentType="video" subsegmentStartsWithSAP="1" maxWidth="1920" maxHeight="1080" frameRate="90000/3003" subsegmentAlignment="true">
-      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="$RepresentationID$-init.mp4" media="$RepresentationID$-$Time$.m4s" startNumber="1">
+      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-init.mp4" media="c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-$Time$.m4s" startNumber="1">
         <SegmentTimeline>
           <S t="130180" d="180180" r="5"/>
           <S t="1211260" d="42042"/>
@@ -29,7 +29,7 @@
       </SegmentTemplate>
       <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015"/>
       <!-- Updated BaseURL to public host -->
-      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49</BaseURL>
+      <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/</BaseURL>
       <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSMS50cw-video=537000" bandwidth="537000" codecs="avc1.4d401e" mimeType="video/mp4" sar="1:1" width="320" height="180"/>
       <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSMi50cw-video=1279989" bandwidth="1279989" codecs="avc1.4d401e" mimeType="video/mp4" sar="1:1" width="640" height="360"/>
       <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSMy50cw-video=2564970" bandwidth="2564970" codecs="avc1.4d401f" mimeType="video/mp4" sar="1:1" width="1024" height="576"/>

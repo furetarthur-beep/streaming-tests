@@ -39,7 +39,7 @@
     </AdaptationSet>
 
     <AdaptationSet id="2" contentType="audio" lang="en" subsegmentStartsWithSAP="1" subsegmentAlignment="true">
-      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-init.mp4" media="c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-$Time$.m4s" startNumber="1">
+      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="$RepresentationID$-init.mp4" media="$RepresentationID$-$Time$.m4s" startNumber="1">
         <SegmentTimeline>
           <S t="130180" d="180180" r="5"/>
           <S t="1211260" d="42042"/>
@@ -57,13 +57,13 @@
       </SegmentTemplate>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/</BaseURL>
-      <Representation id="c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/audio_1" bandwidth="96124" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+      <Representation id="audio_1" bandwidth="96124" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
       </Representation>
     </AdaptationSet>
 
     <AdaptationSet id="3" contentType="audio" lang="en" subsegmentStartsWithSAP="1" subsegmentAlignment="true">
-      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-init.mp4" media="c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-$Time$.m4s" startNumber="1">
+      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="$RepresentationID$-init.mp4" media="$RepresentationID$-$Time$.m4s" startNumber="1">
         <SegmentTimeline>
           <S t="130180" d="180180" r="5"/>
           <S t="1211260" d="42042"/>
@@ -81,7 +81,7 @@
       </SegmentTemplate>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/dashfmp4/cmaf/</BaseURL>
-      <Representation id="c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/audio_2" bandwidth="192000" codecs="ec-3" mimeType="audio/mp4" audioSamplingRate="48000">
+      <Representation id="audio_2" bandwidth="192000" codecs="ec-3" mimeType="audio/mp4" audioSamplingRate="48000">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"/>
       </Representation>
     </AdaptationSet>

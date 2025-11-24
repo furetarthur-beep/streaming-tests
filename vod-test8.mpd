@@ -4,7 +4,7 @@
   <Period id="1" duration="PT43M28.6520S">
    <BaseURL>https://ott10.broadpeak.tv/vod/ipvod/assets/mtscbsall1/</BaseURL>
     <AdaptationSet id="1" contentType="video" subsegmentStartsWithSAP="1" maxWidth="1920" maxHeight="1080" frameRate="90000/3003" subsegmentAlignment="true">
-      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="$RepresentationID$-init.mp4" media="dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-$Time$.m4s" startNumber="1">
+      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-init.mp4" media="dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-$Time$.m4s" startNumber="1">
         <!--From 1970-01-01T00:00:01 to 1970-01-01T00:43:30-->
         <SegmentTimeline>
           <S t="130180" d="180180" r="5"/>
@@ -30,7 +30,7 @@
       <Representation id="aHR0cDovLzEyNy4wLjAuMS9hd3Nwcm94eS9zMzAvaXB2b2QvbXRzY2JzYWxsL0NCU1YyODUwNjUyNjQ5MjI2NzA4X0ZlYXR1cmVfTUJSNi50cw-video=6891912" bandwidth="6891912" codecs="avc1.640029" mimeType="video/mp4" sar="1:1" width="1920" height="1080"/>
     </AdaptationSet>
     <AdaptationSet id="2" contentType="audio" lang="en" subsegmentStartsWithSAP="1" subsegmentAlignment="true">
-      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="$RepresentationID$-init.mp4" media="dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-$Time$.m4s" startNumber="1">
+      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-init.mp4" media="dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-$Time$.m4s" startNumber="1">
         <!--From 1970-01-01T00:00:01 to 1970-01-01T00:43:30-->
         <SegmentTimeline>
           <S t="130180" d="180180" r="5"/>
@@ -53,7 +53,7 @@
       </Representation>
     </AdaptationSet>
     <AdaptationSet id="3" contentType="audio" lang="en" subsegmentStartsWithSAP="1" subsegmentAlignment="true">
-      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="$RepresentationID$-init.mp4" media="dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-$Time$.m4s" startNumber="1">
+      <SegmentTemplate timescale="90000" presentationTimeOffset="130180" initialization="dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-init.mp4" media="dashfmp4/cmaf/c2N0eNR2Fze5bhEYdHlwZT1EQVNIVFMmYnVybD0mbXB0bj1tdHMvJFJlcHJlc2VudGF0aW9uSUQkL21hbmlmZXN0LSRUaW1lJC50cyZlcG9jPTAmdHNjYT05MDAwMCZwdG89MCZmaXJ0PTEzMDE4MCZzbnVtPTAmZmR1cj0xODAxODAmbmR1cj0wJnRtbG49/$RepresentationID$-$Time$.m4s" startNumber="1">
         <!--From 1970-01-01T00:00:01 to 1970-01-01T00:43:30-->
         <SegmentTimeline>
           <S t="130180" d="180180" r="5"/>
